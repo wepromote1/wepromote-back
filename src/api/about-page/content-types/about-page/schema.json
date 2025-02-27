@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "AboutPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTagline": {
+      "type": "string"
+    },
+    "heroText": {
+      "type": "string"
+    },
+    "marqueeImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "tagLineText": {
+      "type": "string"
+    },
+    "introContent": {
+      "type": "text"
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "spotifyText": {
+      "type": "string"
+    },
+    "spotifyUrl": {
+      "type": "text"
+    },
+    "counters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.counter"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "hiring_pages",
+  "info": {
+    "singularName": "hiring-page",
+    "pluralName": "hiring-pages",
+    "displayName": "HiringPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroText": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "smallText1": {
+      "type": "string"
+    },
+    "smallText2": {
+      "type": "string"
+    },
+    "smallText3": {
+      "type": "string"
+    },
+    "smallText4": {
+      "type": "string"
+    },
+    "smallText5": {
+      "type": "string"
+    },
+    "smallText6": {
+      "type": "string"
+    },
+    "heroText": {
+      "type": "string"
+    },
+    "scrollImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "servicesTagline": {
+      "type": "string"
+    },
+    "servicesBigText": {
+      "type": "string"
+    },
+    "workDone": {
+      "type": "string"
+    },
+    "workText": {
+      "type": "string"
+    },
+    "logosText": {
+      "type": "string"
+    },
+    "workBigImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "workSmallImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "teamImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "homeLogos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
