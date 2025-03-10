@@ -970,7 +970,8 @@ export interface ApiProjectProject extends Schema.CollectionType {
       'manyToOne',
       'api::project-category.project-category'
     >;
-    slug: Attribute.UID<'api::project.project', 'title'>;
+    slug: Attribute.UID<'api::project.project', 'title'> & Attribute.Required;
+    releasedAt: Attribute.Date;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
