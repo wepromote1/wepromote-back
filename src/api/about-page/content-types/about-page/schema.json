@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-page",
     "pluralName": "about-pages",
-    "displayName": "AboutPage"
+    "displayName": "AboutPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,24 +19,23 @@
       "type": "string"
     },
     "marqueeImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "tagLineText": {
       "type": "string"
     },
-    "introContent": {
-      "type": "text"
-    },
     "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "spotifyText": {
       "type": "string"
@@ -47,6 +47,9 @@
       "type": "component",
       "repeatable": true,
       "component": "components.counter"
+    },
+    "introContent": {
+      "type": "blocks"
     }
   }
 }

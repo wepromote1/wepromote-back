@@ -794,6 +794,7 @@ export interface ApiAboutPageAboutPage extends Schema.SingleType {
     singularName: 'about-page';
     pluralName: 'about-pages';
     displayName: 'AboutPage';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -803,11 +804,11 @@ export interface ApiAboutPageAboutPage extends Schema.SingleType {
     heroText: Attribute.String;
     marqueeImages: Attribute.Media<'images', true>;
     tagLineText: Attribute.String;
-    introContent: Attribute.Text;
     video: Attribute.Media<'videos'>;
     spotifyText: Attribute.String;
     spotifyUrl: Attribute.Text;
     counters: Attribute.Component<'components.counter', true>;
+    introContent: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
